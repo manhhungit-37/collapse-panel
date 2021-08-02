@@ -1,7 +1,13 @@
-.text-none {
-  display: none;
+.fas {
+  transition: all .3s ease-in-out;
 }
 
-.text-block {
-  display: block;
+.text {
+  overflow: hidden;
+  max-height: 0;
+  transition: all .3s ease-in-out;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
 }
